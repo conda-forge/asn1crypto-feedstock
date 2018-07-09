@@ -14,14 +14,15 @@ Summary: Python ASN.1 library with a focus on performance and a pythonic API
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/asn1crypto-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asn1crypto-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/asn1crypto-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/asn1crypto-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/asn1crypto-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/asn1crypto-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/asn1crypto-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/asn1crypto-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asn1crypto/badges/version.svg)](https://anaconda.org/conda-forge/asn1crypto)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asn1crypto/badges/downloads.svg)](https://anaconda.org/conda-forge/asn1crypto)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-asn1crypto-green.svg)](https://anaconda.org/conda-forge/asn1crypto) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/asn1crypto.svg)](https://anaconda.org/conda-forge/asn1crypto) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/asn1crypto.svg)](https://anaconda.org/conda-forge/asn1crypto) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/asn1crypto.svg)](https://anaconda.org/conda-forge/asn1crypto) |
 
 Installing asn1crypto
 =====================
