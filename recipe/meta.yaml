@@ -29,8 +29,7 @@ test:
 about:
   home: https://github.com/wbond/asn1crypto
   license: MIT
-  # https://github.com/wbond/asn1crypto/issues/58
-  #license_file: LICENSE
+  license_file: LICENSE
   summary: Python ASN.1 library with a focus on performance and a pythonic API
 
 extra:
