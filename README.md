@@ -14,8 +14,9 @@ Summary: Python ASN.1 library with a focus on performance and a pythonic API
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/asn1crypto-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/asn1crypto-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/asn1crypto-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/asn1crypto-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/asn1crypto-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/asn1crypto-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/asn1crypto-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/asn1crypto-feedstock/branch/master)
 
 Current release info
 ====================
