@@ -1,4 +1,4 @@
-{% set version = "0.22.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: asn1crypto
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/asn1crypto/asn1crypto-{{ version }}.tar.gz
-  sha256: cbbadd640d3165ab24b06ef25d1dca09a3441611ac15f6a6b452474fdf0aed1a
+  sha256: f822954b90c4c44f002e2cd46d636ab630f1fe4df22c816a82b66505c404eb2a
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
