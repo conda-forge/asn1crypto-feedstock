@@ -10,7 +10,8 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -22,6 +23,10 @@ requirements:
 test:
   imports:
     - asn1crypto
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/wbond/asn1crypto
